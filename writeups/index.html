@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writeups - rootAbra</title>
+  <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicons/favicon.svg" />
+  <link rel="shortcut icon" href="/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="manifest" href="/favicons/site.webmanifest" />
+  <meta name="apple-mobile-web-app-title" content="rootAbra" />
+  <meta name="description" content="Writeups de máquinas de Hack The Box por Abraham Darwich (rootAbra). Guías detalladas de pentesting y hacking ético.">
+  <link rel="stylesheet" href="../r_writeups/writeups.css">
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      <a href="../">rootAbra@web:~$</a>
+    </div>
+
+    <nav>
+      <a href="../"><span>Inicio</span></a>
+      <a href="/proyectos"><span>Proyectos</span></a>
+    </nav>
+
+    <div class="menu-toggle" id="menuToggle">☰</div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="../">Inicio</a>
+  <a href="." class="disabled">Writeups</a>
+  <a href="/proyectos">Proyectos</a>
+</div>
+
+<main>
+  <div class="page-header">
+    <h1>Writeups de HackTheBox</h1>
+    <p>Resoluciones detalladas de máquinas HTB</p>
+  </div>
+
+  <div class="filters-section">
+    <div class="filters-grid">
+      <div class="filter-group">
+        <label for="statusFilter">Estado</label>
+        <select id="statusFilter">
+          <option value="all">Todas</option>
+          <option value="active">Activas</option>
+          <option value="retired">Retiradas</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="difficultyFilter">Dificultad</label>
+        <select id="difficultyFilter">
+          <option value="all">Todas</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+          <option value="insane">Insane</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="osFilter">Sistema Operativo</label>
+        <select id="osFilter">
+          <option value="all">Todos</option>
+          <option value="linux">Linux</option>
+          <option value="windows">Windows</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="sortFilter">Ordenar por Fecha</label>
+        <select id="sortFilter">
+          <option value="desc">Más recientes</option>
+          <option value="asc">Más antiguos</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="results-info">
+    Mostrando <span id="resultCount">0</span> writeups
+  </div>
+
+  <div class="writeups-grid" id="writeupsList">
+  </div>
+</main>
+
+<footer>
+  © 2026 rootAbra. All rights reserved
+</footer>
+
+<script src="../r_writeups/mobile-menu.js"></script>
+<script src="../r_writeups/writeups.js"></script>
+
+</body>
+</html>

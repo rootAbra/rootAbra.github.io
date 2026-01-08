@@ -1,0 +1,314 @@
+:root {
+  --bg: #0a0a0a;
+  --bg-alt: #111;
+  --green: #00ff88;
+  --green-dim: #00c46b;
+  --gray: #c9c9c9;
+  --gray-dark: #888;
+}
+
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  background: var(--bg);
+  color: var(--gray);
+  overflow-x: hidden;
+}
+
+/* ================= HEADER ================= */
+header {
+  background: var(--bg-alt);
+  border-bottom: 1px solid #222;
+  padding: 1.3rem 2rem;
+}
+
+.header-inner {
+  max-width: 900px;
+  transform: translateX(-7.5px);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  color: var(--green);
+  font-size: 1.38rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+nav a {
+  color: var(--green-dim);
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  position: relative;
+  margin: 0;
+  text-shadow: 0 0 5px rgba(0, 196, 107, 0.3);
+}
+
+nav a span {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav a:first-of-type span,
+nav a:nth-of-type(2) span {
+  color: var(--green);
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(0, 255, 136, 0.4);
+}
+
+nav a span:hover {
+  transform: translateY(-1px);
+  text-shadow: 0 0 12px var(--green);
+  color: var(--green);
+}
+
+@media (min-width: 701px) {
+  nav a:not(:last-child)::after {
+    content: "/";
+    color: var(--gray-dark);
+    margin: 0 0.3rem;
+    display: inline;
+    text-shadow: none;
+    pointer-events: none;
+  }
+}
+
+/* ================= MENU MÓVIL ================= */
+.menu-toggle {
+  display: none;
+  font-size: 1.6rem;
+  color: var(--green);
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle.active {
+  transform: rotate(90deg);
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #0d0d0d;
+  border-bottom: 1px solid #222;
+}
+
+.mobile-menu a {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #1f1f1f;
+  color: var(--green);
+  font-weight: 600;
+  background: rgba(0, 255, 136, 0.05);
+  text-decoration: none;
+}
+
+.mobile-menu a:hover {
+  background: #111;
+}
+
+.mobile-menu a.disabled {
+  pointer-events: none;
+  opacity: 0.9;
+  cursor: default;
+  background: none;
+  color: #aaa;
+  font-weight: normal;
+}
+
+/* ================= MAIN ================= */
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-header {
+  text-align: center;
+  padding: 2rem 0 3rem;
+}
+
+.page-header h1 {
+  color: var(--green);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+}
+
+.page-header p {
+  color: var(--gray);
+  font-size: 1.1rem;
+}
+
+/* ================= PROJECT CARDS ================= */
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ================== TARJETA PARA PROYECTOS ================== */
+.cert-card {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background: linear-gradient(145deg, #061a15 0%, #08201a 50%, #061a15 100%);
+  border: 2px solid var(--green);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 40px rgba(0, 255, 136, 0.5);
+  border-color: #00ffaa;
+}
+
+.cert-logo {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.cert-logo img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.cert-content { 
+  flex: 1; 
+  position: relative; 
+  z-index: 1; 
+}
+
+.cert-content h4 {
+  color: var(--green);
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* SOLUCIÓN: Añade estas líneas para arreglar el texto en móvil */
+.cert-description {
+  color: #c9c9c9;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .projects-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  nav a {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .mobile-menu.show {
+    display: flex;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .page-header {
+    padding: 1.5rem 0 2.5rem;
+  }
+
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .page-header p {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .cert-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .cert-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cert-content h4 {
+    font-size: 1.3rem;
+  }
+  
+  /* SOLUCIÓN: Ajustes específicos para móvil */
+  .cert-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 0.5rem;
+  }
+}
+
+/* ================= FOOTER ================= */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+  color: #666;
+  border-top: 1px solid #222;
+}
