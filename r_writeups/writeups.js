@@ -119,7 +119,17 @@ const writeups = [
     date: "2026-01-08",
     link: "../writeups/view/Outbound",
     image: "../images/htb/Outbound.png"
-  }
+  },
+  {
+  name: "Previous",
+  os: "linux",
+  difficulty: "medium",
+  status: "retired",
+  techniques: "Port Scanning, Web Enumeration, NextJS Middleware Authentication Bypass (CVE-2025-29927), Protected Route Access, JavaScript Chunk Analysis, API Enumeration, Local File Inclusion (LFI), NextAuth Configuration Disclosure, Credential Extraction, SSH Access, Sudo Misconfiguration, Terraform Provider Override Abuse, Privilege Escalation to Root",
+  date: "2026-01-10",
+  link: "../writeups/view/Previous",
+  image: "../images/htb/Previous.png"
+}
 ];
 
 let filteredWriteups = [...writeups];
