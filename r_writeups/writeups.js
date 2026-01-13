@@ -81,6 +81,16 @@ const writeups = [
     image: "../images/htb/HackNet.png"
   },
   {
+    name: "Browsed",
+    os: "linux",
+    difficulty: "medium",
+    status: "active",
+    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+    date: "2026-01-13",
+    link: "#",
+    image: "../images/htb/Browsed.png"
+  },
+  {
     name: "Conversor",
     os: "linux",
     difficulty: "easy",
