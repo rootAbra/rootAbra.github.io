@@ -36,7 +36,7 @@ Nos creamos una cuenta en el sitio. Entre las cosas que tiene la página, hay un
 
 Hay un **SSTI**, el nombre de usuario no lo sanitiza correctamente el engine **Django**, detectado con la extensión de navegador **Wappalizer**. 
 
-Si vamos a nuestro perfil en el sitio web, y le cambiamos el username a algo tipo **{% debug %}**, veremos que nos lo interpreta en la respuesta en vez de mostrarse en texto claro. Para la explotación vamos a cambiar el nombre de nuestro usuario a **{{users.values}}**, el payload devuelve los datos de los usuarios, incluyendo **su contraseña**:
+Si vamos a nuestro perfil en el sitio web, y le cambiamos el username a algo tipo **`{% debug %}`**, veremos que nos lo interpreta en la respuesta en vez de mostrarse en texto claro. Para la explotación vamos a cambiar el nombre de nuestro usuario a **`{{users.values}}`**, el payload devuelve los datos de los usuarios, incluyendo **su contraseña**:
 
 ![[2]](img/2.png)
 
