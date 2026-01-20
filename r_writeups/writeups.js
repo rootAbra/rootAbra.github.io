@@ -71,14 +71,14 @@ const writeups = [
     image: "../images/htb/Imagery.png"
   },
   {
-    name: "HackNet",
-    os: "linux",
-    difficulty: "medium",
-    status: "active",
-    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-    date: "2026-01-06",
-    link: "#",
-    image: "../images/htb/HackNet.png"
+  name: "HackNet",
+  os: "linux",
+  difficulty: "medium",
+  status: "retired",
+  techniques: "Django SSTI (Server-Side Template Injection), User Enumeration via Likes Feature, Password Extraction via SSTI, SSH Access, Django Cache Poisoning, Pickle Deserialization Attack, GPG Key Cracking (gpg2john), GPG Encrypted Backup Decryption, MySQL Root Password Extraction from SQL Backup",
+  date: "2026-01-20",
+  link: "../writeups/view/HackNet",
+  image: "../images/htb/HackNet.png"
   },
   {
     name: "Browsed",
@@ -131,6 +131,26 @@ const writeups = [
     image: "../images/htb/Outbound.png"
   },
   {
+  name: "Guardian",
+  os: "linux",
+  difficulty: "hard",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-01-20",
+  link: "#",
+  image: "../images/htb/Guardian.png"
+  },
+  {
+  name: "Expressway",
+  os: "linux",
+  difficulty: "easy",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-01-20",
+  link: "#",
+  image: "../images/htb/Expressway.png"
+  },
+  {
   name: "Previous",
   os: "linux",
   difficulty: "medium",
@@ -139,7 +159,7 @@ const writeups = [
   date: "2026-01-10",
   link: "../writeups/view/Previous",
   image: "../images/htb/Previous.png"
-}
+  }
 ];
 
 let filteredWriteups = [...writeups];
