@@ -64,10 +64,10 @@ const writeups = [
     name: "Imagery",
     os: "linux",
     difficulty: "medium",
-    status: "active",
-    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-    date: "2026-01-06",
-    link: "#",
+    status: "retired",
+    techniques: "XSS (Cross-Site Scripting), Cookie Hijacking, Admin Session Theft, LFI (Local File Inclusion), Database Enumeration (db.json), Command Injection via ImageMagick Convert, Python Reverse Shell, AES File Decryption (pyAesCrypt), Password Cracking (MD5), Sudo Privilege Abuse (charcol), Cron Job Manipulation, Root Flag Extraction via Scheduled Task",
+    date: "2026-01-28",
+    link: "../writeups/view/Imagery",
     image: "../images/htb/Imagery.png"
   },
   {
