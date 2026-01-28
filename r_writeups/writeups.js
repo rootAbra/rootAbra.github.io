@@ -159,7 +159,28 @@ const writeups = [
   date: "2026-01-10",
   link: "../writeups/view/Previous",
   image: "../images/htb/Previous.png"
+  },
+  {
+  name: "Cobblestone",
+  os: "linux",
+  difficulty: "insane",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-01-28",
+  link: "#",
+  image: "../images/htb/Cobblestone.png"
+  },
+  {
+  name: "Overwatch",
+  os: "windows",
+  difficulty: "medium",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-01-28",
+  link: "#",
+  image: "../images/htb/Overwatch.png"
   }
+
 ];
 
 let filteredWriteups = [...writeups];
