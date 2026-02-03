@@ -104,10 +104,10 @@ const writeups = [
     name: "CodePartTwo",
     os: "linux",
     difficulty: "easy",
-    status: "active",
-    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-    date: "2026-01-06",
-    link: "#",
+    status: "retired",
+    techniques: "CVE-2024-28397 (js2py RCE), SQLite Database Enumeration, MD5 Hash Cracking, Sudo Privilege Abuse (npbackup-cli), Backup File Manipulation",
+    date: "2026-02-03",
+    link: "../writeups/view/CodePartTwo",
     image: "../images/htb/CodePartTwo.png"
   },
   {
