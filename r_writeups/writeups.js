@@ -179,8 +179,27 @@ const writeups = [
   date: "2026-01-28",
   link: "#",
   image: "../images/htb/Overwatch.png"
-  }
-
+  },
+  {
+  name: "Pterodactyl",
+  os: "linux",
+  difficulty: "medium",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-02-17",
+  link: "#",
+  image: "../images/htb/Pterodactyl.png"
+  },
+  {
+  name: "Facts",
+  os: "linux",
+  difficulty: "easy",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-02-17",
+  link: "#",
+  image: "../images/htb/Facts.png"
+}
 ];
 
 let filteredWriteups = [...writeups];
