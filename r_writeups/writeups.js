@@ -54,10 +54,10 @@ const writeups = [
     name: "Soulmate",
     os: "linux",
     difficulty: "easy",
-    status: "active",
-    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-    date: "2026-01-06",
-    link: "#",
+    status: "retired",
+    techniques: "Subdomain Enumeration, CrushFTP CVE-2025-31161 (Authentication Bypass), Admin Account Creation, Password Change Abuse, File Upload (PHP Webshell), RCE via Webshell, Erlang Service Analysis, Credential Extraction from Erlang Script, SSH to Custom Erlang Service, Erlang Shell Command Execution (os:cmd), Root Flag Extraction via Eshell",
+    date: "2026-02-19",
+    link: "../writeups/view/Soulmate",
     image: "../images/htb/Soulmate.png"
   },
   {
