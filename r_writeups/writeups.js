@@ -199,7 +199,17 @@ const writeups = [
   date: "2026-02-17",
   link: "#",
   image: "../images/htb/Facts.png"
-}
+  },
+  {
+  name: "WingData",
+  os: "linux",
+  difficulty: "easy",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-02-20",
+  link: "#",
+  image: "../images/htb/WingData.png"
+  }
 ];
 
 let filteredWriteups = [...writeups];
