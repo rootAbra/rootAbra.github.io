@@ -201,6 +201,16 @@ const writeups = [
   image: "../images/htb/Facts.png"
   },
   {
+    name: "Interpreter",
+    os: "linux",
+    difficulty: "medium",
+    status: "active",
+    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+    date: "2026-02-21",
+    link: "#",
+    image: "../images/htb/Interpreter.png"
+  },
+  {
   name: "WingData",
   os: "linux",
   difficulty: "easy",
