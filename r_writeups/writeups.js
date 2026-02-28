@@ -134,10 +134,10 @@ const writeups = [
   name: "Guardian",
   os: "linux",
   difficulty: "hard",
-  status: "active",
-  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-  date: "2026-01-20",
-  link: "#",
+  status: "retired",
+  techniques: "Subdomain Enumeration, IDOR (Insecure Direct Object Reference), XSS via phpspreadsheet CVE (GHSA-79xx-vf93-p7cx), Cookie Hijacking, CSRF (Cross-Site Request Forgery), Weak CSRF Token Implementation, LFI (Local File Inclusion), PHP Filter Chain RCE, MySQL Database Enumeration, SHA-256 Hash Cracking (Hashcat), Python Library Hijacking, Apache ErrorLog Pipe Command Injection, SUID Privilege Escalation",
+  date: "2026-02-28",
+  link: "../writeups/view/Guardian",
   image: "../images/htb/Guardian.png"
   },
   {
