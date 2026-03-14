@@ -144,10 +144,10 @@ const writeups = [
   name: "Expressway",
   os: "linux",
   difficulty: "easy",
-  status: "active",
-  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-  date: "2026-01-20",
-  link: "#",
+  status: "retired",
+  techniques: "UDP Port Scanning, IPSec Enumeration, IKE Aggressive Mode PSK Cracking, SSH Access, Local Enumeration, Sudo Binary Analysis, Group-based File Enumeration, Log Analysis, Virtual Host Discovery, CVE-2025-27591 (Sudo Host Option Privilege Escalation)",
+  date: "2026-03-14",
+  link: "../writeups/view/Expressway",
   image: "../images/htb/Expressway.png"
   },
   {
