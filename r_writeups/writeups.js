@@ -219,7 +219,37 @@ const writeups = [
   date: "2026-02-20",
   link: "#",
   image: "../images/htb/WingData.png"
-  }
+  },
+  {
+  name: "VariaType",
+  os: "linux",
+  difficulty: "medium",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-03-19",
+  link: "#",
+  image: "../images/htb/VariaType.png"
+},
+{
+  name: "CCTV",
+  os: "linux",
+  difficulty: "easy",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-03-19",
+  link: "#",
+  image: "../images/htb/CCTV.png"
+},
+{
+  name: "DarkZero",
+  os: "windows",
+  difficulty: "hard",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-03-19",
+  link: "#",
+  image: "../images/htb/DarkZero.png"
+}
 ];
 
 let filteredWriteups = [...writeups];
