@@ -24,10 +24,10 @@ const writeups = [
     name: "Gavel",
     os: "linux",
     difficulty: "medium",
-    status: "active",
-    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-    date: "2026-01-06",
-    link: "#",
+    status: "retired",
+    techniques: "Git Repository Dumping (.git exposure), Git Object Analysis, SQL Injection (Blind UNION-based), Bcrypt Hash Cracking, PHP Rule Engine Code Injection, Reverse Shell via Auction Rules, Privilege Escalation via YAML Deserialization, SUID Binary Creation, Bash SUID Exploitation",
+    date: "2026-03-24",
+    link: "../writeups/view/Gavel",
     image: "../images/htb/Gavel.png"
   },
   {
@@ -94,10 +94,10 @@ const writeups = [
     name: "Conversor",
     os: "linux",
     difficulty: "easy",
-    status: "active",
-    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-    date: "2026-01-06",
-    link: "#",
+    status: "retired",
+    techniques: "XSLT Server-Side Injection, File Upload via XSLT (exslt:document), Cron Job Exploitation, Python Reverse Shell, SQLite Database Enumeration, MD5 Hash Cracking, Sudo Privilege Abuse (needrestart), LFI via needrestart Configuration Parameter",
+    date: "2026-03-24",
+    link: "../writeups/view/Conversor",
     image: "../images/htb/Conversor.png"
   },
   {
