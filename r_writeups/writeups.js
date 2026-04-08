@@ -84,10 +84,10 @@ const writeups = [
     name: "Browsed",
     os: "linux",
     difficulty: "medium",
-    status: "active",
-    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-    date: "2026-01-13",
-    link: "#",
+    status: "retired",
+    techniques: "Chrome Extension Upload Abuse, Stored XSS (Chrome Extension), Internal Service Discovery (Error Disclosure), Gitea Repository Enumeration, Bash Conditional Injection (arithmetic context bypass), Base64-encoded Reverse Shell, Python .pyc Cache Poisoning, Timestamp Spoofing, SUID Binary Creation, Bash SUID Exploitation",
+    date: "2026-04-08",
+    link: "../writeups/view/Browsed",
     image: "../images/htb/Browsed.png"
   },
   {
@@ -244,10 +244,10 @@ const writeups = [
   name: "DarkZero",
   os: "windows",
   difficulty: "hard",
-  status: "active",
-  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-  date: "2026-03-19",
-  link: "#",
+  status: "retired",
+  techniques: "MSSQL Linked Server Abuse, xp_cmdshell RCE, Dynamic Port MSSQL Enumeration, Meterpreter Payload Delivery (certutil), CVE-2024-30088 (Windows Kernel Privilege Escalation), NTLM Hash Dumping (hashdump), Port Forwarding via Metasploit, Pass-the-Hash (psexec), Unconstrained Delegation Abuse, TGT Capture via Rubeus Monitor, Forced Authentication (xp_dirtree), Kerberos Ticket Extraction (.kirbi to .ccache), DCSync Attack (secretsdump), Pass-the-Hash (evil-winrm)",
+  date: "2026-04-08",
+  link: "../writeups/view/DarkZero",
   image: "../images/htb/DarkZero.png"
 },
 {
