@@ -259,6 +259,26 @@ const writeups = [
   date: "2026-03-25",
   link: "#",
   image: "../images/htb/Kobold.png"
+},
+{
+  name: "Silentium",
+  os: "linux",
+  difficulty: "easy",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-04-27",
+  link: "#",
+  image: "../images/htb/Silentium.png"
+},
+{
+  name: "DevArea",
+  os: "linux",
+  difficulty: "medium",
+  status: "active",
+  techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
+  date: "2026-04-27",
+  link: "#",
+  image: "../images/htb/DevArea.png"
 }
 ];
 
