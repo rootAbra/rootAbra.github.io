@@ -4,10 +4,10 @@ const writeups = [
     name: "Eighteen",
     os: "windows",
     difficulty: "easy",
-    status: "active",
-    techniques: "Este writeup se publicará una vez la máquina sea retirada, conforme a las normativas de HackTheBox",
-    date: "2026-01-06",
-    link: "#",
+    status: "retired",
+    techniques: "MSSQL User Impersonation, MSSQL Database Enumeration, PBKDF2-SHA256 Hash Cracking, Password Spraying via WinRM, BadSuccessor Attack, dMSA Privilege Escalation, Kerberos Ticket Request (getST), DCSync Attack (secretsdump), Pass-the-Hash (evil-winrm)",
+    date: "2026-05-04",
+    link: "../writeups/view/Eighteen",
     image: "../images/htb/Eighteen.png"
   },
   {
